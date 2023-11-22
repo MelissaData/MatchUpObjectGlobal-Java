@@ -20,7 +20,7 @@ class FileConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2023.Q3'
+$RELEASE_VERSION = '2023.Q4'
 $ProductName = "GLOBAL_MU_DATA"
 
 # Uses the location of the .ps1 file 

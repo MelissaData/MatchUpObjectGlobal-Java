@@ -9,7 +9,7 @@ Please feel free to copy or embed this code to your own project. Happy coding!
 
 For the latest Melissa MatchUp Object Global release notes, please visit: https://releasenotes.melissa.com/on-premise-api/matchup-object-global/
 
-For further details, please visit: https://wiki.melissadata.com/index.php?title=MatchUp_Object:Reference
+For further details, please visit: https://docs.melissa.com/on-premise-api/matchup-object-global/matchup-object-global-quickstart.html
 
 The console will ask the user for:
 
@@ -27,7 +27,7 @@ And return
 
 - Windows 64-bit Java 19
 - Powershell 5.1
-- Melissa data files for 2023-Q3
+- Melissa data files for 2023-Q4
 
 
 
