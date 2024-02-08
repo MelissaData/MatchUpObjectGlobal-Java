@@ -1,5 +1,3 @@
-
-
 # Compiled class file
 *.class
 
@@ -19,6 +17,7 @@
 Data/
 com/
 
+temp.key
 
 mdMatchup.dll
 mdGlobalParse.dll
