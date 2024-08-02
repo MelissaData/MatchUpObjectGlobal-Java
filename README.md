@@ -24,7 +24,7 @@ And return
 ## Tested Environments
 
 - Windows 64-bit Java 19, Powershell 5.1
-- Melissa data files for 2024-Q2
+- Melissa data files for 2024-Q3
 
 ## Required File(s) and Programs
 
