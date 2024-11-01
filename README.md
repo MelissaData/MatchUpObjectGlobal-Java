@@ -24,7 +24,7 @@ And return
 ## Tested Environments
 
 - Windows 64-bit Java 19, Powershell 5.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 
@@ -73,8 +73,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java
-$ cd MatchUpObjectGlobal-Java
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java
+cd MatchUpObjectGlobal-Java
 ```
 
 #### Set up Melissa Updater 
@@ -111,24 +111,24 @@ Parameters:
 
     The script will prompt the user for a global txt file and a US txt file, then use the provided txt files to test MatchUp Object Global.  For example:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1
     ```
     For quiet mode:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1 -quiet
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1 -quiet
     ```
 - Command Line 
 
     You can pass a global txt file, US txt file, and a license string into the `-global`, `-us`, and `-license` parameters respectively to test MatchUp Object Global. For example:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt"
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>"
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt"
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>"
     ```
 
-	For quiet mode:
+  For quiet mode:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -quiet
-    $ .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>" -quiet
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -quiet
+    .\MelissaMatchupObjectGlobalWindowsJava.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
